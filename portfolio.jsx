@@ -88,6 +88,7 @@ const CSS = `
 
 .band{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;padding:104px 26px 26px;border-bottom:1px solid var(--ink)}
 #work .band{padding-top:280px}
+#contact .band{padding-top:280px}
 .band .sh{font-family:var(--mono);font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;color:var(--mut)}
 .band .ti{font-weight:600;font-size:clamp(1.05rem,2.3vw,1.6rem);letter-spacing:-.008em}
 .band .ct{margin-left:auto;font-family:var(--mono);font-size:.62rem;letter-spacing:.2em;color:var(--mut)}
@@ -253,7 +254,7 @@ background-size:5px 5px,5px 5px,25px 25px,25px 25px}
   border:1px solid var(--ink);padding:11px 14px;font-family:var(--mono);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase}
 .readlink .v{color:var(--acc)}
 
-.contact{padding:320px 26px 28px}
+.contact{padding:280px 26px 28px}
 .bigmail{display:inline-block;font-weight:600;letter-spacing:-.016em;font-size:clamp(1rem,2.4vw,1.7rem);line-height:1.15;word-break:break-word}
 .bigmail:hover{color:var(--acc)}
 .clist{margin-top:44px;display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--ink)}
